@@ -46,10 +46,10 @@ def scrape_lottery_numbers():
 lottery_numbers = scrape_lottery_numbers()
 
 # 定義資料庫連接所需的相關資訊
-db_server = "LAPTOP-E1A4LKH6"  # 資料庫伺服器名稱或 IP 地址
-db_database = "abc"  # 資料庫名稱
-db_username = "sa"  # 資料庫用戶名
-db_password = "00000000"  # 資料庫密碼
+db_server = ""  # 資料庫伺服器名稱或 IP 地址
+db_database = ""  # 資料庫名稱
+db_username = ""  # 資料庫用戶名
+db_password = ""  # 資料庫密碼
 
 driver_name = '{ODBC Driver 17 for SQL Server}'  # 資料庫驅動程式名稱
 connection_string = f"DRIVER={driver_name};SERVER={db_server};DATABASE={db_database};UID={db_username};PWD={db_password};"  # 構建連接字串
