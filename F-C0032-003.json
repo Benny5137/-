@@ -1,0 +1,205 @@
+{
+    "cwaopendata": {
+      "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
+      "identifier": "5e428765-0a27-9fc8-0d4c-964f8f027fc4",
+      "sender": "weather@cwa.gov.tw",
+      "sent": "2024-07-02T16:33:11+08:00",
+      "status": "Actual",
+      "msgType": "Issue",
+      "source": "MFC",
+      "dataid": "C0032-003",
+      "scope": "Public",
+      "dataset": {
+        "datasetInfo": {
+          "datasetDescription": "七天天氣預報",
+          "issueTime": "2024-07-02T17:00:00+08:00",
+          "update": "2024-07-02T16:33:11+08:00"
+        },
+        "location": [
+          {
+            "locationName": "臺北市",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "time": [
+                  {
+                    "startTime": "2024-07-03T00:00:00+08:00",
+                    "endTime": "2024-07-04T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴午後短暫雷陣雨"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-04T00:00:00+08:00",
+                    "endTime": "2024-07-05T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-05T00:00:00+08:00",
+                    "endTime": "2024-07-06T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-06T00:00:00+08:00",
+                    "endTime": "2024-07-07T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-07T00:00:00+08:00",
+                    "endTime": "2024-07-08T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-08T00:00:00+08:00",
+                    "endTime": "2024-07-09T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-09T00:00:00+08:00",
+                    "endTime": "2024-07-10T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "晴時多雲"
+                    }
+                  }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  {
+                    "startTime": "2024-07-03T00:00:00+08:00",
+                    "endTime": "2024-07-04T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "36",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-04T00:00:00+08:00",
+                    "endTime": "2024-07-05T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "36",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-05T00:00:00+08:00",
+                    "endTime": "2024-07-06T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "38",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-06T00:00:00+08:00",
+                    "endTime": "2024-07-07T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "37",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-07T00:00:00+08:00",
+                    "endTime": "2024-07-08T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "35",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-08T00:00:00+08:00",
+                    "endTime": "2024-07-09T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "35",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-09T00:00:00+08:00",
+                    "endTime": "2024-07-10T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "35",
+                      "parameterUnit": "C"
+                    }
+                  }
+                ]
+              },
+              {
+                "elementName": "MinT",
+                "time": [
+                  {
+                    "startTime": "2024-07-03T00:00:00+08:00",
+                    "endTime": "2024-07-04T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-04T00:00:00+08:00",
+                    "endTime": "2024-07-05T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-05T00:00:00+08:00",
+                    "endTime": "2024-07-06T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-06T00:00:00+08:00",
+                    "endTime": "2024-07-07T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-07T00:00:00+08:00",
+                    "endTime": "2024-07-08T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-08T00:00:00+08:00",
+                    "endTime": "2024-07-09T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  },
+                  {
+                    "startTime": "2024-07-09T00:00:00+08:00",
+                    "endTime": "2024-07-10T00:00:00+08:00",
+                    "parameter": {
+                      "parameterName": "27",
+                      "parameterUnit": "C"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
+ 
