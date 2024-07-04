@@ -1,15 +1,17 @@
 import json
 import pyodbc
+import requests
 from flask import Flask, jsonify, render_template
 from datetime import datetime
 
-# 定义 JSON 文件路径
-JSON_FILE_PATH = 'F-C0032-003.json'
+# 定义 JSON 文件 URL
+JSON_URL = 'https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Forecast/F-C0032-001.json'
 
-def fetch_weather_data(file_path):
+def fetch_weather_data(url):
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
+        response = requests.get(url)
+        response.raise_for_status()  # 确保请求成功
+        data = response.json()
         weather_data = []
 
         if 'cwaopendata' not in data or 'dataset' not in data['cwaopendata']:
@@ -107,7 +109,7 @@ def insert_weather_data(weather_data):
     conn.commit()
     conn.close()
 
-weather_data = fetch_weather_data(JSON_FILE_PATH)
+weather_data = fetch_weather_data(JSON_URL)
 create_table()
 insert_weather_data(weather_data)
 
